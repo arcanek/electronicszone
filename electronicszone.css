@@ -1,0 +1,78 @@
+body {
+    background-color: orange;
+    border-left: 10px;
+    border-right: 10px;
+    font-family:sans-serif;
+    margin: 0;
+}
+
+.pgtitle {
+  background-color: orange;
+}
+
+/* topmnu container */
+.topmnu {
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Links inside the topmnu */
+.topmnu a {
+  float: left;
+  font-size: 20px;
+  color: blanchedalmond;
+  text-align: center;
+  padding: 10px 6px;
+  text-decoration: none;
+}
+
+/* Add a red background color to topmnu links on hover */
+.topmnu a:hover {
+  background-color: black;
+}
+
+.main{
+    background-color: orange;
+    color: white;
+}
+
+.botmnu {
+  background-color: black;
+  bottom: 0;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+.botmnu a {
+  color: blanchedalmond;
+  display: block;
+  font-size: 20px;
+  float: left;
+  margin: 0px 10px;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.botmnu a:hover {
+  background-color: black;
+}
+
+p {
+    border-radius: 6px;
+    background-color: orange;
+    border-left: 10px;
+    border-right: 10px;
+    font-family:sans-serif;
+    padding: 6px;
+}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+}
